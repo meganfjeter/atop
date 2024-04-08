@@ -1,0 +1,397 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+    font-family: 'Futura PT', sans-serif;
+    font-size:25px;
+} 	
+
+a{
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 150px;
+    background-color: #FAEDCD;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#search{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height:100%
+}
+
+#cart{
+    display: flex;
+    justify-content: center;
+    width: 10%;
+}
+
+#profile{
+    display: flex;
+    justify-content: center;
+    width: 10%;
+}
+
+.mobilenav{
+    display: none;
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+  
+.topnav #myLinks {
+    display: none;
+}
+  
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    
+    font-size: 17px;
+    display: block;
+}
+  
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.desknav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  width: 90%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  
+}
+
+.desknav a{
+  color: #000;
+  
+  font-size: 2.5vw;
+
+}
+
+.cary{
+	display: flex;	
+	flex-direction: row;
+	padding: 5%;
+  
+	padding-bottom: 5%;
+	align-items: center;
+	
+}
+
+#bunny{
+
+	width: 40%;
+	height: 40%;
+	
+}
+
+.col{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+#goal{
+	padding-bottom: 2%;
+	text-align: center;
+	font-size: 2.5vw;
+	width: 85%;
+	height: 90%;
+	
+}
+
+#discount{
+	padding-top: 2%;
+	max-width: 100%;
+	max-height: 100%;
+	width: 85%;
+	height: 85%;
+	
+}
+
+.title{
+    width: 100%;
+    background-color: #FAEDCD;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    font-size: 5vw;
+}
+
+.howmadevideo{
+	display: flex;	
+    margin: auto;
+	padding-top: 5%;
+	padding-bottom: 10%;
+    width: 90%;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/* CSS FOR CAROUSEL */
+
+
+.container {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin: auto;
+    max-width: 100%;
+    width: 80%;
+  }
+
+
+
+  .slider-wrapper {
+    position: relative;
+  }
+
+  .slider-wrapper .slide-button {
+    position: absolute;
+    top: 50%;
+    outline: none;
+    border: none;
+    height: 50px;
+    width: 50px;
+    z-index: 5;
+    color: black;
+    display: flex;
+    cursor: pointer;
+    font-size: 2.2rem;
+    background-color: #FAEDCD;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transform: translateY(-50%);
+  }
+
+  .slider-wrapper .slide-button#prev-slide {
+    left: -25px;
+    display: none;
+  }
+
+  .slider-wrapper .slide-button#next-slide {
+    right: -25px;
+  }
+
+  .slider-wrapper .image-list {
+    display: grid;
+    grid-template-columns: repeat(9, 33%);
+    gap: 18px;
+    font-size: 0;
+    list-style: none;
+    margin-bottom: 30px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .slider-wrapper .image-list::-webkit-scrollbar {
+    display: none;
+  }
+
+  .slider-wrapper .image-list .image-item {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .container .slider-scrollbar {
+    height: 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .slider-scrollbar .scrollbar-track {
+    background: #ccc;
+    width: 100%;
+    height: 2px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    position: relative;
+  }
+
+  .slider-scrollbar:hover .scrollbar-track {
+    height: 4px;
+  }
+
+  .slider-scrollbar .scrollbar-thumb {
+    position: absolute;
+    background: #000;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    height: 100%;
+    cursor: grab;
+    border-radius: inherit;
+  }
+
+  .slider-scrollbar .scrollbar-thumb:active {
+    cursor: grabbing;
+    height: 8px;
+    top: -2px;
+  }
+
+  .slider-scrollbar .scrollbar-thumb::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -10px;
+    bottom: -10px;
+  }
+
+/*FOOTER*/
+
+.footer{
+	padding-top: 1%;
+    padding-bottom: 1%;
+    height: 250px;
+	background-color: #FAEDCD;
+	display: flex;
+	flex-direction: column;
+}
+
+.backtotop{
+  width: 100%;
+  height: 50%;
+  font-size: 3vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    
+  color: #000;
+}
+
+.icons{	
+	display: flex;
+    width: 100%;
+    height: 50%;
+	justify-content: space-evenly;
+    align-items: center;
+}
+
+.icon-color{
+	color: #EE806D;
+
+}
+
+
+
+
+
+/*TESTIMONIALS CSS*/
+
+.testimonials{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.testimonials img{
+  width: 40%;
+}
+
+/*END TESTIMONIALS CSS*/
+
+
+
+/*CONTACT US CSS*/
+
+.contactcol{
+  width: 80%;
+  height: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactrow{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contactform{
+  width: 50%;
+  
+  margin: auto;
+}
+
+input[type=text]{
+  width: 30%;
+  padding: 2%;
+  box-sizing: border-box;
+  border: 2px solid black;
+}
+
+#message{
+  width: 100%;
+  padding: 2%;
+  box-sizing: border-box;
+  border: 2px solid black;
+}
+
+.hoursofop{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+/*END CONTACT US CSS*/

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>ATOP</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.cdnfonts.com/css/futura-pt" rel="stylesheet">	
+        <link rel="stylesheet" media="screen and (max-width: 700px)" href="css/mymcss.css">
+        <link rel="stylesheet" media="screen and (min-width: 701px)"  href="css/mycss.css">
+		<script src="https://kit.fontawesome.com/19cfc895f6.js" crossorigin="anonymous"></script>
+        <script src="scripts/script.js" defer></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+	</head>
+
+    <body>
+
+        <header>
+
+            <div class="header">
+
+                <i id="search" class="search fa-solid fa-magnifying-glass fa-xl"></i>
+
+                <a class="logo" href="index.html"><img src="images/atoplogo.png" alt="logo"></a>
+
+                <i id="cart" class="header-icon fa-solid fa-cart-shopping fa-xl"></i>
+
+                <i id="profile" class="header-icon fa-solid fa-user fa-xl"></i>
+
+                
+                <a href="javascript:void(0);" class="mobilenav" onclick="myFunction()">
+                    <p>&#9776;</p>
+                </a>
+                
+
+            </div>
+
+        </header>
+
+        <div class="topnav">
+            
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+              <a href="about.html">ABOUT</a>
+              <a href="order.html">ORDER</a>
+              <a href="testimonials.html">TESTIMONIALS</a>
+              <a href="contact.html">CONTACT</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+           
+        </div>
+
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myLinks");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            }
+        </script>
+
+        <div class="desknav">
+            <a href="about.html">ABOUT</a>
+              <a href="order.html">ORDER</a>
+              <a href="testimonials.html">TESTIMONIALS</a>
+              <a href="contact.html">CONTACT</a>
+        </div>
+<!--------------------------------------------------------------------------------------------------------------------->
+
+
+        <h3 class="title">HEAR IT FROM THEM</h3>
+
+        <div class="testimonialcol">
+            <div class="testimonials">
+                <img src="images/alice.png" alt="alice">
+                <img src="images/sasha.png" alt="sasha">
+            </div>
+            <div class="testimonials">
+                <img src="images/updatedfinn.png" alt="finn">
+                <img src="images/emma.png" alt="emma">
+            </div>
+        </div>
+
+
+<!--------------------------------------------------------------------------------------------------------------------->       
+        <footer>
+            <div class="footer">
+
+                <a class="backtotop" href="Testimonials.html"><h3 >BACK TO TOP</h3></a>
+                
+                <div class="icons">
+                    <a href="https://www.facebook.com/ATouchofPets"><i class="icon-color fa-brands fa-facebook fa-2xl"></i></a>
+                    <a href="https://www.instagram.com/atouchofpets/"><i class="icon-color fa-brands fa-instagram fa-2xl"></i></a>
+                    <a href="https://www.pinterest.com/ATouchofPets/"><i class="icon-color fa-brands fa-pinterest fa-2xl"></i></a>		
+                </div>
+            </div>
+        </footer>
+
+
+    </body>
+
+</html>
