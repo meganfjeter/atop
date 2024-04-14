@@ -155,7 +155,7 @@ img{
     padding-top: 5%;
     padding-bottom: 5%;
     text-align: center;
-    font-size: 5VW;
+    font-size: 6VW;
 }
 
 
@@ -320,7 +320,7 @@ img{
 .backtotop{
     width: 100%;
     height: 50%;
-    font-size: 3vw;
+    font-size: 5vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -360,3 +360,143 @@ img{
   }
   
   /*END TESTIMONIALS CSS*/
+
+
+/*CONTACT US CSS*/
+
+/*INPUT FORM*/
+.contactpage{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 15%;
+  
+}
+
+.contactform{
+ width: 90%;
+ display: flex;
+ flex-direction: column;
+ padding-left: 5%;
+ padding-right: 5%;
+}
+
+.nonmess{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.name{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 6vw;
+  padding-bottom: 15%;
+}
+
+#name{
+  width:90%;
+  box-sizing: border-box;
+  padding: 20px 10px;
+  border-bottom:2px solid #000;
+}
+
+.email{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 6vw;
+  padding-bottom: 15%;
+}
+
+#email{
+  width:90%;
+  box-sizing: border-box;
+  padding: 20px 10px;
+  border-bottom:2px solid #000;
+}
+
+.message{
+  display: flex;
+  flex-direction: column;
+  font-size: 6vw;
+  padding-bottom: 15%;
+}
+
+#message{
+  width:90%;
+  box-sizing: border-box;
+  margin-top: 50px;
+  padding-top:10px ;
+  padding-bottom: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom:2px solid #000;
+}
+
+.button{
+  padding-bottom: 15%;
+}
+
+button{
+  font-family: 'Futura PT', sans-serif;
+  color: white;
+  font-size: 6vw;
+  background-color: #EE806D;
+  width: 35%;
+  padding: 2%;
+  border-radius: 29px;
+ 
+}
+
+
+/*HOURS OF OPERATION INFO*/
+.hoursofop{
+ width: 90%;
+ display: flex;
+ flex-direction: column;
+ align-self: center;
+ background-color: #CCD5AE;
+ padding: 5%;
+}
+
+#hours{
+  font-size: 10vw;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
+
+.schedule{
+  display:flex;
+  flex-direction: row;
+}
+
+.dates{
+  display:flex;
+  flex-direction: column;
+  width: 50%;
+  list-style-position: inside;
+  font-size: 4vw;
+  font-weight: bold;
+}
+
+.times{
+  display:flex;
+  flex-direction: column;
+  text-align: right;
+  width: 50%;
+  list-style: none;
+  font-size: 4vw;
+  font-weight: bold;
+}
+
+.number{
+  text-align: center;
+  font-size: 4vw;
+}
+/*END HOURS OF OPERATION INFO*/
+
+
+/*END CONTACT US CSS*/
