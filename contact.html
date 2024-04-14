@@ -70,28 +70,67 @@
 
 <h3 class="title">CONTACT US</h3>
 
-<div class="contactcol">
-    <div class="contactrow">
+<div class="contactpage">
+    <form class="contactform">
+        <div class="nonmess">
+            <div class="name">
+                <label for="name">NAME</label>
+                <input type="text" id="name" name="name">
+            </div>
 
-        <form class="contactform" name="myfirstform" action="#" method="post">
-            <label for="firstname">Name</label>
-            <label for="email">Email<br></label>
-            <input type="text" size="20" id="firstname" placeholder="Enter Your Name"/>
-            
-            <input type="text" size="20" id="email" placeholder="Enter your email" />
-            <br><br><br>
-            <label for="message">Message</label><br>
-            <textarea placeholder="Type your message here" rows="10" cols="100" id="message" class="textarea" ></textarea>
-            <input type="SUBMIT" value="SUBMIT" />
-        </form>
-        
-        <div class="hoursofop">
-
+            <div class="email">
+                <label for="email">EMAIL</label>
+                <input type="text" id="email" name="email">
+            </div>
         </div>
+        <div class="message">
+            <label for="message">MESSAGE</label>
+            <textarea id="message" name="message" rows="8" cols="10"></textarea>
+        </div>
+
+        <div class ="button">
+
+        <button>SEND</button>
+        </div>
+    </form>
+
+
+    <div class="hoursofop">
+            <p id="hours">HOURS OF OPERATION</p><br>
+                <div class="schedule">
+                
+                    <ul class="dates"> 
+                        <li>MONDAY</li>
+                        <li>TUESDAY</li>
+                        <li>WEDNESDAY</li>
+                        <li>THURSDAY</li>
+                        <li>FRIDAY</li>
+                        <li>SATURDAY</li>
+                        <li>SUNDAY</li>
+                    </ul>
+                              
+                    <ul class="times"> 
+                        <li>8AM-4:30PM</li>
+                        <li>8AM-4:30PM</li>
+                        <li>8AM-4:30PM</li>
+                        <li>8AM-4:30PM</li>
+                        <li>8AM-4:30PM</li>
+                        <li>CLOSED</li>
+                        <li>CLOSED</li>
+                    </ul>      
+            </div>
+
+            <p class="number"><b>(804) 840-1889<br>info@atouchofpets.com</b></p>
+            
+
+            
+            
+
+
+
+
     </div>
 </div>
-
-
 
 
 
