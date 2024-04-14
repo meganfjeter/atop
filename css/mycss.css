@@ -448,6 +448,10 @@ button{
   flex-direction: row;
 }
 
+.schedule li{
+  margin-bottom: 1em;
+}
+
 .dates{
   display:flex;
   flex-direction: column;
@@ -455,7 +459,10 @@ button{
   list-style-position: inside;
   font-size: 2vw;
   font-weight: bold;
+
 }
+
+
 
 .times{
   display:flex;
