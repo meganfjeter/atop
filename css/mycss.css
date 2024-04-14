@@ -346,52 +346,132 @@ img{
 
 
 
+
+
 /*CONTACT US CSS*/
 
-.contactcol{
-  width: 80%;
-  height: 500px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.contactrow{
+/*INPUT FORM*/
+.contactpage{
   width: 100%;
-  height: 100%;
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 .contactform{
-  width: 50%;
-  
-  margin: auto;
+ width: 60%;
+ display: flex;
+ flex-direction: column;
+ padding-left: 5%;
 }
 
-input[type=text]{
-  width: 30%;
-  padding: 2%;
+.nonmess{
+  display: flex;
+  flex-direction: row;
+  height: 30%;
+}
+
+.name{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  font-size: 2vw;
+}
+
+#name{
+  width:50%;
   box-sizing: border-box;
-  border: 2px solid black;
+  padding: 20px 10px;
+  border-bottom:2px solid #000;
+}
+
+.email{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  font-size: 2vw;
+}
+
+#email{
+  width:50%;
+  box-sizing: border-box;
+  padding: 20px 10px;
+  border-bottom:2px solid #000;
+}
+
+.message{
+  display: flex;
+  flex-direction: column;
+  font-size: 2vw;
+  padding-bottom: 15%;
 }
 
 #message{
-  width: 100%;
-  padding: 2%;
+  width:76%;
   box-sizing: border-box;
-  border: 2px solid black;
+  margin-top: 50px;
+  padding-top:10px ;
+  padding-bottom: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom:2px solid #000;
 }
 
+button{
+  font-family: 'Futura PT', sans-serif;
+  color: white;
+  font-size: 2vw;
+  background-color: #EE806D;
+  width: 20%;
+  padding: 2%;
+  border-radius: 29px;
+}
+
+
+/*HOURS OF OPERATION INFO*/
 .hoursofop{
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+ width: 30%;
+ flex-direction: column;
+ background-color: #CCD5AE;
+ padding: 1%;
 }
 
+#hours{
+  font-size: 5vw;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
+
+.schedule{
+  display:flex;
+  flex-direction: row;
+}
+
+.dates{
+  display:flex;
+  flex-direction: column;
+  width: 50%;
+  list-style-position: inside;
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.times{
+  display:flex;
+  flex-direction: column;
+  text-align: right;
+  width: 50%;
+  list-style: none;
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.number{
+  text-align: center;
+  font-size: 2vw;
+}
+/*END HOURS OF OPERATION INFO*/
 
 
 /*END CONTACT US CSS*/
