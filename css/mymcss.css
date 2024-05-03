@@ -500,3 +500,92 @@ button{
 
 
 /*END CONTACT US CSS*/
+
+
+/*START OF ORDER CSS*/
+
+.ordertitle{
+  padding-right: 10%;
+  padding-top: 3%;
+  padding-bottom: 1%;
+  padding-left: 4%;
+  font-size: 9.5vw;
+  font-style: italic;
+}
+
+
+.steps{
+  display: flex;
+  flex-direction: column;
+  padding-right: 10%;
+  padding-left: 4%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  font-size: 8vw;
+  background-image: linear-gradient(to right,#ED806D,#FFFFFF);
+}
+
+.products{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  padding-top:14%;
+  padding-bottom: 10%;
+}
+
+.productsc{
+  flex-direction: column;
+  width: 70%;
+  font-size: 6vw;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 8%;
+}
+
+.productsc p{
+  padding-top: 2%;
+}
+
+.productsc p:hover{
+  text-decoration: underline;
+}
+  
+/*END ORDER CSS*/
+
+
+/*START ABOUT*/ 
+
+.abouttext{
+  font-size: 8vw;
+  padding-left: 2%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.montytext{
+  font-size: 10vw;
+  color: #EE806D;
+  font-style: italic;
+}
+
+.goal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 5%;
+  text-align: center;
+  font-size: 3vw;
+}
+
+.goal p{
+  width: 80%;
+  font-size: 6vw;
+  padding-top: 10%;
+}
+
+.goal img{
+  width: 80%;
+  border: 15px solid #CCD5AE;
+}
+
